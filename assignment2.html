@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Image Gallery | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <section id="gallery">
+        <figure>
+            <img id="featured" src="images/sunflower-large.jpg" alt="Sunflowers" width="1200" height="800" />
+            <figcaption id="caption">Sunflowers in the hamlet Dernekamp, Kirchspiel, Dülmen, North Rhine-Westphalia, Germany</figcaption>
+        </figure>
+        <ul>
+            <li><img class="thumbnail" src="images/sunflower-small.jpg" alt="Sunflowers" data-large="images/sunflower-large.jpg" data-caption="Sunflowers in the hamlet Dernekamp, Kirchspiel, Dülmen, North Rhine-Westphalia, Germany" width="240" height="160" /></li>
+            <li><img class="thumbnail" src="images/poppies-small.jpg" alt="Poppies" data-large="images/poppies-large.jpg" data-caption="Poppies in cornfield, Dülmen, North Rhine-Westphalia, Germany" width="240" height="160" /></li>
+            <li><img class="thumbnail" src="images/daffodils-small.jpg" alt="Daffodils" data-large="images/daffodils-large.jpg" data-caption="Daffodils in Sentmaring park, Münster, North Rhine-Westfalia, Germany" width="240" height="160" /></li>
+            <li><img class="thumbnail" src="images/park-small.jpg" alt="Park" data-large="images/park-large.jpg" data-caption="Sentmaring Park, Münster, North Rhine-Westphalia, Germany" width="240" height="160" /></li>
+            <li><img class="thumbnail" src="images/market-small.jpg" alt="Market" data-large="images/market-large.jpg" data-caption="Market in Münster, North Rhine-Westphalia, Germany" width="240" height="160" /></li>
+        </ul>
+    </section>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
